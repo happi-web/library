@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Library</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header class="header">
+            <h3>Books Library</h3>
+            <div class="right">
+                <button type="submit" id="signin">Sign In</button>
+                <button type="submit" id="signup">Sign Up</button>
+            </div>
+        </header>
+        <hr>
+        <div class="content">
+            <section class="form-container">
+                <form action="" method="post">
+                    <label for="title">Title</label>
+                    <input type="text" name="title" id="title" placeholder="Title">
+                    <label for="author">Author</label>
+                    <input type="text" name="author" id="author" placeholder="Author">
+                    <label for="pages">Pages</label>
+                    <input type="number" name="pages" id="pages" placeholder="Pages">
+                    <div>
+                        <label for="read">Read:</label>
+                        <input type="checkbox" id="read" />
+                      </div>                      
+                </form>
+                <div class="btn">
+                    <button id="submit" type="submit">Submit</button>
+                </div>
+            </section>
+            <section class="books-container">
+            </section>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>

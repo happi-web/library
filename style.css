@@ -1,0 +1,110 @@
+*,
+::after,
+::before
+{
+    box-sizing: border-box;
+}
+*
+{
+    margin: 0;
+    padding: 0;
+}
+body
+{
+    background-color: cornsilk;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container
+{
+    width: 80%;
+    height: 100%;
+    background-color: #556b2f;
+    margin: 0 auto;
+}
+.header
+{
+    display: flex;
+    justify-content: center;
+    gap: 60%;
+    padding: 20px;
+}
+.header h3
+{
+    color: white;
+    font-size: 2rem;
+    font-weight: bolder;
+    cursor: pointer;
+    font-family: monospace;
+}
+.right button
+{
+    padding: 10px;
+    margin: 0 5px 0 5px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #556b2f;
+    border-radius: 15px;
+    cursor: pointer;
+}
+.right button:hover
+{
+    color:rgb(255, 248, 240) ;
+    background-color:#0f0f0f;
+}
+form
+{
+    display: flex;
+    align-self: self-end;
+    margin: 20px 10px;
+    width: 90%;
+    padding: 10px;
+    flex-direction: column;
+    outline: 2px solid beige;
+}
+input
+{
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 10px;
+}
+label
+{
+    margin: 5px;
+    color: azure;
+    font-size: 1rem;
+    font-weight: bolder;
+}
+.btn
+{
+    margin: 5px 30px;
+}
+.btn button
+{
+    margin: 10px 0;
+    padding: 10px;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #556b2f;
+    border-radius: 10px;
+}
+.btn button:hover
+{
+    color:rgb(255, 248, 240) ;
+    background-color:#0f0f0f;
+}
+.content
+{
+    display: flex;
+    border: 2px solid white;
+    width: 100%;
+}
+.form-container
+{
+    width: 30%;
+}
+.books-container
+{
+    margin: 20px 10px;
+    width: 70%;
+    height: 100%;
+}
